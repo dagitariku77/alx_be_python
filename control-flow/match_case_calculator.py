@@ -1,16 +1,20 @@
-num1 = int(input("insert num 1"))
-num2 = int(input("insert num2"))
-operation = input("inter opeeration")
-
+num1 = int(input("Enter the first number:"))
+num2 = int(input("Enter the first number:"))
+operation = input("choose the operation(+, -, *, /):")
 match operation :
        case '+':
-          print(num1 + num2)
+           result = (num1 + num2)
+           print(f"the result is {result}")
+
        case '-':
-          print(num1 - num2)
+          result = (num1 - num2)
+          print(f"the result is {result}")
        case '*':
-          print(num1 * num2)
+          result = (num1 * num2)
+          print(f"the result is {result}")
        case '/':
-          print(num1 / num2)
+          result = (num1 / num2)
+          print(f"the result is {result}")
        case _:
           print("invalid input")
           
